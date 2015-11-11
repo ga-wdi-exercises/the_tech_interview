@@ -21,12 +21,16 @@ Instructor demonstrates how they would respond to a technical interview question
 ```
 # (pseudo coded) Instructions
 students.each do |student|
-  problem = ProjectEuler.problems.sample
+  problem = InterviewProblem.all.sample
   student.discuss_intelligently_for_five_minutes(problem)
 end
 ```
+### tl;dr
 
-Where are the problems? [Project Euler](https://projecteuler.net/archives)
+- Pick a random problem from [Interview Cake](https://www.interviewcake.com) or [Project Euler](https://projecteuler.net/archives)
+- Rotate every 5 minutes
+
+### Practice
 
 - Practice thinking out loud.
 - Practice diagramming concepts and showing your work
